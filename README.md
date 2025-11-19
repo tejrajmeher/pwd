@@ -1,5 +1,7 @@
+
 # pwd
-The following packages needs to be imported
+# The following packages needs to be imported
+# create the hash passwords from the csv file
 
 import os
 import numpy as np
@@ -13,6 +15,7 @@ import mcpldtmncs as cs
 fep = ''
 ep = pd.read_csv(fep)
 ep.columns = ep.columns.str.lower()
+
 
 ep['paid'] = ep['mul'] + ep['fav']
 ep['paid'].value_counts()
