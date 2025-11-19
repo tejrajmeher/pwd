@@ -1,7 +1,8 @@
 
 # pwd
-# The following packages needs to be imported
-# create the hash passwords from the csv file
+
+The following packages needs to be imported
+create the hash passwords from the csv file
 
 import os
 import numpy as np
