@@ -1,5 +1,5 @@
 
-# pwd
+
 
 The following packages needs to be imported
 create the hash passwords from the csv file
