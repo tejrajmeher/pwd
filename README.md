@@ -19,7 +19,7 @@ ep.columns = ep.columns.str.lower()
 
 ep['paid'] = ep['mul'] + ep['fav']
 ep['paid'].value_counts()
-
+ep['employee_eq'] = ep['_dept'] + ep['delta'] 
 
 
 en 2510437617
